@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>{blog}</title>
+</head>
+<body>
+    <h1>{blog}</h1>
+    <!-- <ul>
+        <li><a href="">Blog 1</a></li>
+        <li><a href="">Blog 2</a></li>
+        <li><a href="">Blog 3</a></li>
+        <li><a href="">Blog 4</a></li>
+    </ul> -->
+
+    <h2>Blog #1</h2>
+    <p class="date"><%= locals.fullDate %></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet sapien sit amet nisi tristique condimentum dictum non est. Vivamus eget metus augue. Vestibulum a arcu tristique, aliquet sapien eget, condimentum neque. In sed porta sem. Phasellus dapibus libero sed ornare tempus.</p>
+    <p>Duis ut consequat risus. Nam vel ipsum non eros dignissim hendrerit. Maecenas vitae magna ipsum. Nullam laoreet neque non lectus sagittis, ac vehicula est tincidunt. Duis nec nulla dolor. Maecenas justo nisl, hendrerit sit amet aliquet vitae, elementum in enim. Proin accumsan in mi vitae varius.</p>
+    <div class="hr"></div>
+
+    <h2>Blog #2</h2>
+    <p class="date"><%= locals.fullDate %></p>
+
+    <label for="text">Enter title</label>
+    <br>
+    <input type="text" placeholder="Hello World">
+    <br>
+
+    <label for="textarea">Enter content</label>
+     <br>
+    <textarea class="textarea" name="Enter content" id="textarea" rows="8" cols="60" maxlength="400" placeholder="Once upon a byte..."></textarea>
+    <br>
+
+    <button class="button">Submit</button>
+
+</body>
+</html>
