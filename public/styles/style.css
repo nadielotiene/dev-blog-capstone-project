@@ -1,12 +1,32 @@
 body {
-    background-color: #111;
+    background: #222;
     color: hsl(75, 94%, 57%);
     font-family: 'Courier New', Courier, monospace;
-    margin: 5%;
+    margin: 10%;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    min-width: 30rem;
+
 }
 
 h1 {
     font-size: 3rem;
+}
+
+p {
+    /* padding: 5rem 0; */
+}
+
+.edit-btn, .delete-btn {
+    background-color: #BBB;
+    color: #333;
+    width: 60px;
+    border: 1px hsl(75, 94%, 57%) solid;
+    border-radius: 3px;
+    margin: 5px 0;
 }
 
 .hr {
@@ -15,7 +35,10 @@ h1 {
 }
 
 input[type=text], .textarea, .button {
-    width: 100%;
+    background-color: #BBB;
+    border: 1px hsl(75, 94%, 57%) solid;
+    border-radius: 3px;
+    min-width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
